@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingStart="16dp"
+              android:paddingEnd="16dp">
+
+    <TextView
+            android:text="@string/ed_newton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textView"
+            style="@style/NameStyle"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/what_is_your_name"
+            android:ems="10"
+            android:id="@+id/name_id"
+            style="@style/NameStyle"
+            android:autofillHints=""/>
+    <Button
+            android:text="@string/done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/done"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/starImg" android:contentDescription="@string/todo"/>
+    <ScrollView
+            android:id="@+id/bio_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="@string/bio"
+                style="@style/NameStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:id="@+id/textView2"/>
+    </ScrollView>
+</LinearLayout>
