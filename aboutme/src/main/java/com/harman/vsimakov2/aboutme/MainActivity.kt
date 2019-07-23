@@ -1,9 +1,9 @@
 package com.harman.vsimakov2.aboutme
 
 import android.content.Context
-import android.databinding.DataBindingUtil
-import android.support.v7.app.AppCompatActivity
+import androidx.databinding.DataBindingUtil
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 

@@ -19,7 +19,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:id="@+id/myName"
+                android:id="@+id/name"
                 style="@style/NameStyle"/>
         <EditText
                 android:layout_width="match_parent"

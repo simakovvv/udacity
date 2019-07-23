@@ -1,9 +1,10 @@
 package com.harman.vsimakov2.diceroller
 
-import android.support.v7.app.AppCompatActivity
+
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
