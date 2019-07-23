@@ -1,1 +1,1 @@
-include ':app', ':aboutme'
+include ':app', ':aboutme', ':colormyviews'
